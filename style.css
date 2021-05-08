@@ -1,0 +1,193 @@
+
+.HeaderRectangle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: url(img/HeaderRectangle.png);
+    width: auto;
+    height: 84px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.JumbotronImage {
+    background: url(img/JumbotronImage.png);
+    width: auto;
+    height: 403px;
+    padding-left: 55px;
+    padding-right: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TheProblemImage {
+    background: url(img/TheProblemImage.png);
+    width: auto;
+    height: 719px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.HeroImage {
+    background: url(img/HeroImage.png);
+    width: auto;
+    height: 483px;
+    padding-left: 55px;
+    padding-right: 55px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.PPCBg {
+    background: url(img/PPCBg.png);
+    width: auto;
+    height: 604px;
+    padding-left: 55px;
+    padding-right: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.TheTeamBg {
+    background: url(img/TheTeamBg.png);
+    width: auto;
+    height: 845px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.footerBg {
+    background: url(img/footerBg.png);
+    width: auto;
+    height: 176px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.bodyBox {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+    align-content: center;
+    width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.logo {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.selections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+    width: 392px;
+    align-items: center;
+}
+
+.textSelection {
+    font-family: Roboto, sans-serif;
+    font-size: 21px;
+    text-align: center;
+    font-weight: 500;
+    /* line-height: 28.13px; */
+    color: #FFFFFF;
+}
+
+.textJumbotron p {
+    font-family: Roboto, sans-serif;
+    font-size: 72px;
+    font-weight: 500;
+    /* line-height: 28.13px; */
+    color: #FFFFFF;
+
+}
+
+/* .textJumbotron {
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+} */
+
+.TheProblemImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.TheProblemImage h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 64px;
+    color: #007765;
+}
+
+.TheProblemImage p {
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    color: #000000;
+}
+
+.HeroImage p {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-size: 48px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+a:active,
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #B0E0E3;
+}
+
+.PPCBg figure {
+    float: left;
+    clear: right;
+}
+
+.PPCBg h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 64px;
+    color: #007765;
+    text-align: center;
+}
+
+.PPCBg p {
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    color: #000000;
+    text-align: left;
+}
+
+.figcaptionLogoPPC {
+    display: flex;
+    justify-content: space-between;
+}
+
+.theTeamContainer {
+    width: 350px;
+    height: 283px;
+    background-color: black;
+}
+
+.theTeamContainerMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
